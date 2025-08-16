@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мапа</title>
+</head>
+<body>
+  <h1>Image Map</h1>
+
+<p>Натисніть на області зображення, щоб перейти до відповідних статей Вікіпедії.</p>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Wikipedia-logo-v2-uk.svg" width="500" alt="Логотип Вікіпедії" usemap="#wikimap">
+
+  <map name="wikimap">
+    <!-- Прямокутна область -->
+    <area shape="rect" coords="0,0,250,250" href="https://uk.wikipedia.org/wiki/Вікіпедія:Головна_сторінка" alt="Головна сторінка Вікіпедії" target="_blank">
+    <!-- Кругла область -->
+    <area shape="circle" coords="400,150,100" href="https://uk.wikipedia.org/wiki/Вікіпедія:Проект" alt="Проект Вікіпедія" target="_blank">
+  </map>
+
+
+</body>
+</html>
